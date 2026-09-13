@@ -1,0 +1,19 @@
+# Node / build (quando o scaffold do React entrar)
+node_modules/
+dist/
+.vite/
+
+# Ambiente
+.env
+.env.local
+.env.*.local
+
+# Editor/OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
