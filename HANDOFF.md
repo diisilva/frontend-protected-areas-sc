@@ -13,6 +13,16 @@ trabalho de Segurança de Sistemas do mesmo autor), estratégia de testes unitá
 **Nenhum código de aplicação existe ainda** — nem o módulo de autenticação na API, nem o scaffold
 do React. Nenhum `.github/workflows` de CI existe neste nem nos dois repositórios irmãos.
 
+## Controle de versão entre os três repositórios
+
+Commit e push só acontecem quando o responsável pedir explicitamente, nunca automaticamente
+depois de uma implementação — vale para este repositório e para `pipeline-protected-areas-sc` e
+`fast-api-protected-areas-sc`. Qualquer mudança que não estivesse prevista no desenho do TCC 3 já
+defendido perante a banca deve atualizar
+`X:\fast-api-protected-areas-sc\PLANO_REESCRITA_TCC3.md` no momento em que acontece,
+independentemente de em qual dos três repositórios ela ocorreu — esse documento é a base para
+reescrever os capítulos finais do TCC.
+
 ## Dependência bloqueante
 
 O frontend não consegue autenticar de verdade enquanto `protected-areas-sc-api` não implementar o
